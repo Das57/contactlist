@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .app-container {
+    max-width: 450px;
+    margin: 60px auto;
+    background-color: #fff;
+    padding: 40px;
+    border: 1px solid #eaeaea;
+  }
+  
+  .app-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #000;
+    letter-spacing: -0.5px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+  
+  .contact-form__title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+    color: #555;
+  }
+  
+  .contact-form__input {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    background: transparent;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+    border-radius: 0;
+  }
+  
+  .contact-form__input:focus {
+    outline: none;
+    border-bottom: 1px solid #000;
+  }
+  
+  .contact-form__input::placeholder {
+    color: #aaa;
+  }
+  
+  .contact-form__button {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .contact-form__button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .contact-list {
+    border-top: 1px solid #eaeaea;
+  }
+  
+  .contact-list__empty {
+    text-align: center;
+    color: #999;
+    padding-top: 30px;
+    font-size: 14px;
+  }
+  
+  .contact-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .contact-item__info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .contact-item__name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+  }
+  
+  .contact-item__details {
+    font-size: 13px;
+    color: #777;
+    margin: 0;
+  }
+  
+  .contact-item__button {
+    background: transparent;
+    border: 1px solid #e0e0e0;
+    color: #999;
+    padding: 6px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  
+  .contact-item__button:hover {
+    border-color: #d32f2f;
+    color: #d32f2f;
+  }
+  
